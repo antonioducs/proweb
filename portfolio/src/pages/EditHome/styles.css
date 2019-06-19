@@ -1,0 +1,20 @@
+
+
+#EditHome {
+    display: flex;
+    background-color: white;
+    justify-content: flex-start;
+    align-content: space-between;
+    align-items: stretch;
+    padding: 50px;
+    flex-direction: column;
+}
+
+#EditHome ul{
+    padding: 20px;
+    margin: 20px;
+}
+
+#EditHome button{
+    margin: 5px;
+}

@@ -1,0 +1,70 @@
+
+
+
+
+#List {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    background-position: left top;
+    flex-direction: row;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+#List h2{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-style: normal;
+}
+
+.Nome{
+    color: gray;
+    font-style: italic;
+}
+
+perfilImg {
+    border: 1px solid black;
+    width: 400px;
+    height: 400px;
+}
+
+img{
+    width: 400px;
+    height: 400px;
+    object-fit: fill;
+    border-radius: 200px;
+}
+
+
+#ListDir, #ListEsq {
+    flex: 1;    
+    margin-top: 60px;
+}
+
+
+#ListEsq ul{
+    margin-bottom: 50px;
+}
+
+#ListEsq .item-1{
+    font-size: 55px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 768px) {
+    perfilImg, img{
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
+    }
+    #List .item-1{
+        font-size: 40px;
+    }
+    #List h2{
+        font-size: 12px;
+    }
+}

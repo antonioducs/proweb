@@ -1,0 +1,69 @@
+
+
+#Portfolio {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    padding: 20px;
+    flex-wrap: wrap;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(34, 34, 59, 0.84)), to(rgba(34, 34, 59, 0.98))), url("https://github.com/antonioducs/proweb/blob/master/img/portifolio/work.jpg?raw=true");
+    background: -webkit-linear-gradient(rgba(34, 34, 59, 0.84), rgba(44, 44, 99, 0.98)), url("https://github.com/antonioducs/proweb/blob/master/img/portifolio/work.jpg?raw=true");
+    background: -o-linear-gradient(rgba(34, 34, 59, 0.84), rgba(34, 34, 59, 0.98)), url("https://github.com/antonioducs/proweb/blob/master/img/portifolio/work.jpg?raw=true");
+    background: linear-gradient(rgba(34, 34, 59, 0.84), rgba(34, 34, 59, 0.98)), url("https://github.com/antonioducs/proweb/blob/master/img/portifolio/work.jpg?raw=true");
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+#Portfolio h1{
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-size: 55px;
+    text-decoration: underline;
+}
+
+#Portfolio .body{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#Portfolio .image {
+    cursor: pointer;
+    border: 1px solid black;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    width: 250px;
+    height: 200px;
+    border-radius: 0px;
+    
+}
+
+#Portfolio img{
+    width: 250px;
+    height: 200px;
+    object-fit: fill;
+    border-radius: 0px;
+}
+
+#Portfolio .image:hover{
+    box-shadow: 9px 7px 5px rgba(17, 17, 17, 0.77);
+    -webkit-transition: all 1.0s ease-in-out 0s;
+    -o-transition: all 1.0s ease-in-out 0s;
+    transition: all 1.0s ease-in-out 0s;
+}
+
+@media only screen and (max-width: 768px) {
+    #Portfolio h1{
+        font-size: 40px;
+    }
+}

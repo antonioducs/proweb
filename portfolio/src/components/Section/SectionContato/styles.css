@@ -1,0 +1,74 @@
+
+
+#Contato {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: black;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(34, 34, 59, 0.84)), to(rgba(34, 34, 59, 0.98))), url("https://github.com/antonioducs/proweb/blob/master/img/portifolio/contato.jpg?raw=true");
+    background: -webkit-linear-gradient(rgba(34, 34, 59, 0.84), rgba(44, 44, 99, 0.98)), url("https://github.com/antonioducs/proweb/blob/master/img/portifolio/contato.jpg?raw=true");
+    background: -o-linear-gradient(rgba(34, 34, 59, 0.84), rgba(34, 34, 59, 0.98)), url("https://github.com/antonioducs/proweb/blob/master/img/portifolio/contato.jpg?raw=true");
+    background: linear-gradient(rgba(34, 34, 59, 0.84), rgba(34, 34, 59, 0.98)), url("https://github.com/antonioducs/proweb/blob/master/img/portifolio/contato.jpg?raw=true");
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+#Contato h1{
+    margin-top: 50px;
+    font-size: 55px;
+    text-decoration: underline;
+}
+
+#Contato h2{
+    margin-top: 30px;
+}
+
+#Contato p{
+    margin-bottom: 10px;
+}
+
+#Contato #assunto, #Contato #nome, #Contato #email{
+    font-size: 20px;
+    margin-bottom: 20px;
+    width: 80%;
+    height: 30px;
+    border-radius: 20px;
+    padding: 10px;
+}
+#Contato textarea{
+    padding: 10px;
+    margin-top: 10px;
+    width: 80%;
+    border-radius: 20px;
+    height: 200px;
+}
+
+#Contato Button{
+    margin-bottom: 50px;
+}
+
+#Contato .item{
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#Contato img{
+    height: 100px;
+    width: 100px;
+    border-radius: 0px;
+    margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+    #Contato h1{
+        font-size: 40px;
+    }
+}

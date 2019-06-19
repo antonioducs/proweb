@@ -1,0 +1,50 @@
+
+#Lista{
+    text-align: left;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    background-color: white;
+    background-position: left top;
+    flex-direction: column;
+    padding: 0px;
+    font-size: 12px;
+}
+
+#Topo{
+    text-align: left;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    background-color: white;
+    background-position: left top;
+    flex-direction: row;
+    padding: 0px;
+}
+
+
+
+#Lista h1{
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+#Lista img_lista {
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+}
+
+#Lista img{
+    width: 30px;
+    height: 30px;
+    object-fit: fill;
+}
+
+#Lista li{
+    font-size: 20px;
+    color: rgb(110, 107, 107);
+    margin-left: 50px;
+    padding: 5px 0px;
+}
